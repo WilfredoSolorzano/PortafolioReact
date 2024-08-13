@@ -1,16 +1,23 @@
 import React from 'react'
-import Teste from './Teste'
 import EstiloGlobal from './styles'
+import Sidebar from './containers/Sidebar'
+import Sobre from './containers/Sobre'
+import Projectos from './containers/Projetos'
+import { Container } from './styles'
 
 function App() {
-  return(
+  return (
     <>
       <EstiloGlobal />
-      <Teste />
+      <Container>
+        <Sidebar />
+        <main>
+          <Sobre />
+          <Projectos />
+        </main>
+      </Container>
     </>
   )
-
-
 }
 
 export default App
