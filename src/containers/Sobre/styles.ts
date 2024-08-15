@@ -5,7 +5,7 @@ export const GithubtSecao = styled.div`
   margin-bottom: 64px;
 
   img {
-    height: 157px; /* Altura fija por defecto */
+    height: 157px;
   }
 
   @media (max-width: 768px) {
@@ -13,8 +13,8 @@ export const GithubtSecao = styled.div`
     display: block;
 
     img {
-      height: auto; /* Ajusta la altura para mantener la proporción en dispositivos pequeños */
-      width: 100%; /* Asegura que la imagen ocupe el ancho del contenedor */
+      height: auto;
+      width: 100%;
     }
   }
 `
